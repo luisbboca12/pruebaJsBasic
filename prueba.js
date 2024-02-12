@@ -24,3 +24,21 @@ function cambiarNombre(objeto) {
 let usuaria= {nombre:"walter",apellido:"diaz"}
 cambiarNombre(usuario)
 console.log(usuario)
+///stringss
+
+let player = "messi"
+let playerdos= 'cr7'
+
+///concatenar
+////opcion 1
+let jugadores = player + ' '+ playerdos
+console.log(jugadores)
+////opcion 2
+let jugadoresdos = `my equipo de futbol juega con ${player}`
+console.log(jugadoresdos)
+////opcion 3
+let equipo= [player,playerdos]
+console.log(equipo.join(' y '))
+let miequipo = "my equipo juega con "
+console.log(miequipo.concat(player,' y ', playerdos))
+
