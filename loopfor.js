@@ -41,14 +41,16 @@
    
 // }
 
+// let contador = 0
+// while(contador <=10){
+//     console.log(contador)
+//     contador ++
+// }
+
+
 let contador = 0
-while(contador <=10){
+do {
+
     console.log(contador)
     contador ++
-}
-
-do {
-    console.log(contador)
-    co
-
-
+} while (contador <10);
