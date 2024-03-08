@@ -22,6 +22,13 @@ for(let i = 0; i < notas.length;i++){
 
 }
 console.log(suma)
+
+
+
+let paisesSudacas =["argentina","brasil","paraguay","alemania"]
+
+paisesSudacas.pop()
+console.log(paisesSudacas)
 // // Se me ocurrio este programita para pagar los recibos de la casa
 // let valoresRecibos = {
 //     agua: 36200,
