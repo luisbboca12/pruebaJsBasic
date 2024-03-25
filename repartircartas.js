@@ -41,5 +41,7 @@ function participantes(numero) {
 }
 
 
-participantes(5)
+// participantes(5)
+
+
 
