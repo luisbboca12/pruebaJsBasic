@@ -12,4 +12,25 @@ let numbers =[1,2,3,4,5,6,7]
 
 let numerosPares = numbers.filter(number=>number %2 ===0)
 
+
+let palabras =["messi","cr7","messi","neymar","aguero","tevez"]
+
+
+let  palabrasRepetidas = palabras.reduce((acumulador,currentvalue)=>{
+    if (acumulador[currentvalue]) {
+  acumulador[currentvalue] ++
+    }else{
+        acumulador[currentvalue] = 1
+    }
+    return acumulador
+} ,{} )
+
+
+
+
+
+
+
+
+console.log(palabrasRepetidas)
 console.log(numerosPares)
