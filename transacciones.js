@@ -33,3 +33,6 @@ transacciones.forEach((transaccion)=>{
     transaccion.monto<0?`Egreso:${transaccion.descripcion} `:`Ingreso:${transaccion.descripcion} `
 })
 console.log("transacciones Actualizadas",transacciones)
+const transaccionMasGrande = transacciones.reduce((anterior, actual) =>
+  Math.abs(actual.monto) > Math.abs(anterior.monto) ? actual : anterior
+);///ssssss
